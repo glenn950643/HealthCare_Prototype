@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brain Tumor Classifier</title>
+    <style>
+        .team-list {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background-color: #f0f0f0;
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .team-list h4 {
+            margin: 0 0 5px 0;
+            font-weight: bold;
+        }
+
+        .team-list ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .team-list li {
+            margin: 2px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="team-list">
+        <h4>Team Members</h4>
+        <ul>
+            <li>Jeevitha Chandrasekar</li>
+            <li>Oreva Evbomenya</li>
+            <li>Dharani Koganti</li>
+            <li>Ziegen Samuel Raja</li>
+            <li>Glenn Oscar Valdivieso Ulloa</li>
+        </ul>
+    </div>
+
+    <h1>Final Project - Health Care Analytics - Group 1</h1>
+    <h3>Brain Tumor Classification using Pre-trained Models</h3>
+    
+    <hr>
+
+    <h2>Upload Brain MRI Image</h2>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Predict</button>
+    </form>
+
+</body>
+</html>
