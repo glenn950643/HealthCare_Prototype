@@ -1,0 +1,20 @@
+# Carpeta de imágenes subidas
+uploads/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+
+# Archivos de modelos grandes
+*.h5
+*.keras
+
+# Entornos virtuales
+venv_HC312/
+
+# Archivos de entorno (si los usas)
+.env
+
+
+
+
